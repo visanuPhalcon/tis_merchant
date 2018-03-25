@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">TIS Merchant</string>
+    <string name="label_ok">OK</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_confirm">Confirm</string>
+    <string name="label_next">Next</string>
+    <string name="label_yes">YES</string>
+    <string name="label_no">NO</string>
+    <string name="label_error_message">Error message</string>
+    <string name="label_loading">Loading...</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="agree">Agree</string>
+    <string name="i_accept_the_terms">I accept these terms and conditions.</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="request_payment">Request Payment</string>
+    <string name="payment_history">Payment History</string>
+    <string name="logout">Logout</string>
+    <string name="home">Home</string>
+    <string name="create_qr_code">Create QR Code</string>
+    <string name="cancel">Cancel</string>
+    <string name="transaction_details">Transaction Details</string>
+    <string name="ok">Ok</string>
+    <string name="from">From :</string>
+    <string name="amount">Amount :</string>
+    <string name="date">Date :</string>
+    <string name="time">Time :</string>
+    <string name="loading">Loading . . .</string>
+    <string name="request">SCAN QR</string>
+    <string name="history">HISTORY</string>
+    <string name="tis_merchant">TIS MERCHANT</string>
+    <string name="message_logout">Are you sure you want to logout?</string>
+    <string name="logout_upper">LOGOUT</string>
+    <string name="cancel_upper">CANCEL</string>
+    <string name="ok_upper">OK</string>
+    <string name="message_no_internet">Network is not available</string>
+    <string name="label_request_payment">Payment</string>
+    <string name="label_customer_name">Customer Name</string>
+
+    <string name="transaction_complete">Transaction Complete!</string>
+    <string name="label_amount">Amount</string>
+    <string name="label_date">Date</string>
+    <string name="label_transaction_no">Transaction No. </string>
+    <string name="label_time">Time</string>
+    <string name="label_please_try_again_later">Please try again later.</string>
+    <string name="label_scan_qr_to_make_a_payment">Scan QR to make a amount</string>
+
+    <string name="label_done">done</string>
+
+    <string name="label_merchant_name">Merchant Name</string>
+    <string name="fragment_trans_time">700</string>
+    <string name="label_merchant_id">Merchant ID</string>
+    <string name="label_last_login">Last login:</string>
+    <string name="label_transaction_fail">Transaction Fail !</string>
+    <string name="label_service_is_not_available">Service is not available</string>
+    <string name="label_message_service_is_unavailable">Service is not available , please try again later.</string>
+    <string name="label_version_update">Version update</string>
+    <string name="label_meesage_version_update">New version available now Please click update button to download</string>
+
+    <string name="label_transaction_ref">Transaction ref</string>
+    <string name="label_currency_japan">JPY</string>
+    <string name="label_you_have_received">You have received</string>
+    <string name="label_welcome_to">Welcome to</string>
+    <string name="label_preference_first_time">preference_first_time</string>
+
+
+    <string name="update_version_title">Update Version!</string>
+    <string name="update_version_noforce">Update version is available, click\nthe Update buttons to download\nand install.</string>
+    <string name="label_update">Update</string>
+    <string name="label_decline">Decline</string>
+    <string name="update_version_force">Update version is available, You\nmust be click the Update buttons\nto download and install.</string>
+    <string name="label_pay_from">Pay From</string>
+    <string name="label_term_con">These Terms and Conditions are a legal agreement between you and TIS. It is important that you read and understand these Terms and Condotion because you will accept and Conditions when you clik on or otherwise electronically activate ""I accept"", ""accept"", ""I agree"", ""agree"", ""OK"", ""submit"", ""continue"", ""approve"" or otherwise acknowledge your acceptance according to on-screen instructions during registration of any eilgible Card in the Wallet or prior to using the Wallet.\n\nif you do not agree with these Terms and Conditions, you must not use the Wallet.</string>
+    <string name="label_temed_out">Session Timeout</string>
+    <string name="label_timed_out_message">Sorry, your seesion timed out after a long time of inactivity. Please, click OK and login again.</string>
+
+
+</resources>

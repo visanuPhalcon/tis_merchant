@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="@dimen/marginExtraExtraLarge"
+        android:paddingEnd="@dimen/marginExtraExtraLarge"
+        android:background="@color/colorTisPurple">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/layout_edt"
+            android:paddingTop="@dimen/paddingExtraLarge"
+            android:paddingBottom="@dimen/paddingExtraLarge"
+            android:adjustViewBounds="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo_large"/>
+
+        <RelativeLayout
+            android:id="@+id/layout_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <EditText
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:maxLength="20"
+                android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:id="@+id/etUsername"
+                style="@style/TisEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginNormal"
+                android:background="@drawable/edt_user"
+                android:maxLines="1"
+                android:hint="@string/username"/>
+
+            <EditText
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:id="@+id/etPassword"
+                style="@style/TisEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/etUsername"
+                android:background="@drawable/edt_password"
+                android:maxLines="1"
+                android:hint="@string/password"
+                android:inputType="textPassword" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            style="@style/TisButtonWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/marginExtraLarge"
+            android:text="@string/login"/>
+
+    </RelativeLayout>
+</layout>

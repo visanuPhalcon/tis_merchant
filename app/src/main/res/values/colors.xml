@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/colorTisDarkPurple</color>
+    <color name="colorPrimaryDark">#9966CC</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorTisPurple">#9966CC</color>
+    <color name="colorTisDarkPurple">#7A51A3</color>
+    <color name="colorTisWhite">#FFFFFF</color>
+    <color name="colorTisDarkWhite">#cccccc</color>
+
+    <!--font color-->
+    <color name="fontColorWhite">#FFFFFF</color>
+    <color name="fontColorBlack">#000000</color>
+    <color name="fontColorWhiteAlpha">#88FFFFFF</color>
+    <color name="fontColorPurple">#9966CC</color>
+
+    <color name="colorTranslucent">#ee000000</color>
+    <color name="colorGreenLight">#b9da79</color>
+    <color name="colorRed">#dd414e</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+
+
+
+
+
+</resources>

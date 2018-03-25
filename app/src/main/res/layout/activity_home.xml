@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginSmall">
+
+            <ImageView
+                android:id="@+id/btn_logout"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="@dimen/marginNormal"
+                android:layout_marginStart="@dimen/marginExtraExtraLarge"
+                android:src="@drawable/ic_logout" />
+
+            <TextView
+                android:id="@+id/tv_top"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="@string/tis_merchant"
+                android:textSize="24sp"
+                android:textColor="@color/fontColorPurple"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <View
+                android:id="@+id/view_top"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@id/tv_top"
+                android:layout_marginStart="@dimen/marginView"
+                android:layout_marginEnd="@dimen/marginView"
+                android:background="@color/colorTisPurple" />
+
+            <TextView
+                android:id="@+id/tvLastLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/view_top"
+                android:layout_marginTop="@dimen/marginSmall"
+                android:layout_marginEnd="@dimen/ExtraExtraExtraLarge"
+                android:text="@string/label_last_login"
+                android:textColor="@color/fontColorPurple"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Display merchant detail"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/marginLarge"
+                android:layout_marginBottom="@dimen/marginNormal"
+                android:layout_marginEnd="@dimen/marginExtraExtraLarge"
+                android:layout_marginStart="@dimen/marginExtraExtraLarge"
+                android:layout_weight="3"
+                android:background="@drawable/bg_border_purple">
+
+                <ImageView
+                    android:id="@+id/iv_logo"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="@dimen/marginNormal"
+                    android:layout_marginStart="@dimen/marginNormal"
+                    android:src="@drawable/logo"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/iv_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:padding="@dimen/paddingLarge"
+                        android:layout_gravity="center"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/merchant"/>
+
+                    <TextView
+                        android:id="@+id/tvName"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.8"
+                        android:layout_alignParentBottom="true"
+                        android:gravity="top|center_horizontal"
+                        android:text="Natjira Honda"
+                        android:textSize="@dimen/textSizeLarge"
+                        android:textColor="@color/fontColorBlack"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:layout_marginStart="@dimen/marginExtraExtraLarge"
+                android:layout_marginEnd="@dimen/marginExtraExtraLarge"
+                android:layout_marginBottom="@dimen/marginLarge"
+                android:background="@drawable/bg_border_purple">
+
+                <TextView
+                    android:id="@+id/tv_label_merchant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/label_merchant_id"
+                    android:textSize="@dimen/textSizeNormal"/>
+
+                <TextView
+                    android:id="@+id/tvMerchantID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toEndOf="@id/tv_label_merchant"
+                    android:layout_marginStart="@dimen/marginNormal"
+                    android:gravity="center"
+                    android:text="156788595689001"
+                    android:textSize="@dimen/textSizeNormal"
+                    android:textColor="@color/fontColorBlack"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:background="@color/colorTisPurple"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/btn_request_payment"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorTisPurple"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:padding="@dimen/paddingLarge"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_request"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_request" />
+
+                <TextView
+                    android:id="@+id/tv_request"
+                    style="@style/TextBelowMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_horizontal"
+                    android:text="@string/request" />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/frame_layout"
+                android:layout_width="2dp"
+                android:layout_height="match_parent">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorTisDarkPurple"
+                    android:layout_marginTop="@dimen/marginSmall"
+                    android:layout_marginBottom="@dimen/marginSmall"/>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_payment_history"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorTisPurple"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:padding="@dimen/paddingLarge"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_history"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_history" />
+
+                <TextView
+                    android:id="@+id/tv_history"
+                    style="@style/TextBelowMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|center_horizontal"
+                    android:text="@string/history" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,57 @@
+﻿<resources>
+
+    <string name="label_tis_wallet">tis wallet</string>
+    <string name="label_welcome_to">Welcome to</string>
+    <string name="label_term">Terms and Conditions</string>
+    <string name="label_accept">Accept</string>
+    <string name="label_registration_completed">Registration Completed</string>
+    <string name="label_welcome_to_tis_wallet">Welcome to TIS WALLET</string>
+    <string name="label_done">done</string>
+    <string name="label_back">Back</string>
+    <string name="label_login_by_username">login by username</string>
+    <string name="label_clear">Clear</string>
+    <string name="label_scan_qr">scan qr</string>
+    <string name="label_name2">Name</string>
+    <string name="label_wallet_account_no">Wallet Account No.</string>
+    <string name="label_currency_japan">JPY</string>
+    <string name="label_message_logout">Are you sure you want to logout ?</string>
+    <string name="label_change_pattern">Change Pattern</string>
+    <string name="label_setting">Setting</string>
+    <string name="label_input_current_pattern">Input Current Pattern</string>
+    <string name="label_input_new_Pattern">Input new Pattern</string>
+    <string name="label_confirm_new_pattern">Confirm New Pattern</string>
+    <string name="label_change_pattern_complete">Change Pattern Complete</string>
+    <string name="label_change_pattern_successful">change pattern successful</string>
+    <string name="label_payment_history">Payment History</string>
+    <string name="label_merchant_name">Merchant Name</string>
+    <string name="label_merchant_id">Merchant ID</string>
+    <string name="label_scan_qr_to_make_a_payment">Scan QR to make a amount</string>
+    <string name="label_pay_by_scan_qr">Pay By Scan QR</string>
+    <string name="label_username_hint">Username</string>
+    <string name="label_password">Password</string>
+    <string name="label_please_draw_pattern_to_confirm">Please draws pattern to confirm</string>
+    <string name="label_draw_current_pattern">Please draws current pattern</string>
+    <string name="label_please_draws_new_pattern_to_login">Please draws new pattern to log in</string>
+    <string name="label_draw_new_pattern_to_confirm">Please draws new pattern again to confirm</string>
+    <string name="label_request_payment">Request Payment</string>
+    <string name="label_customer_name">Customer Name</string>
+
+    <string name="transaction_complete">Transaction Complete!</string>
+    <string name="label_please_try_again_later">Please try again later.</string>
+    <string name="fragment_trans_time">700</string>
+    <string name="label_last_login">Last login:</string>
+    <string name="label_transaction_fail">Transaction Fail !</string>
+    <string name="label_service_is_not_available">Service is not available</string>
+    <string name="label_message_service_is_unavailable">Service is not available , please try again later.</string>
+    <string name="label_version_update">Version update</string>
+    <string name="label_meesage_version_update">New version available now Please click update button to download</string>
+
+    <string name="label_transaction_ref">Transaction ref</string>
+    <string name="label_you_have_received">You have received</string>
+    <string name="label_preference_first_time">preference_first_time</string>
+    <string name="label_pay_from">Pay From</string>
+    <string name="label_term_con">These Terms and Conditions are a legal agreement between you and TIS. It is important that you read and understand these Terms and Condotion because you will accept and Conditions when you clik on or otherwise electronically activate ""I accept"", ""accept"", ""I agree"", ""agree"", ""OK"", ""submit"", ""continue"", ""approve"" or otherwise acknowledge your acceptance according to on-screen instructions during registration of any eilgible Card in the Wallet or prior to using the Wallet.\n\nif you do not agree with these Terms and Conditions, you must not use the Wallet.</string>
+
+
+
+</resources>

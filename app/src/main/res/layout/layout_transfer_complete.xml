@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+                <RelativeLayout
+                android:id="@+id/dialog"
+                android:alpha=".95"
+                android:background="@color/colorTranslucent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/topSection"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        android:gravity="top"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_marginTop="15dp"
+                            android:tint="@color/colorGreenLight"
+                            android:src="@drawable/ic_correct"
+                            android:layout_gravity="center"
+                            android:layout_width="90dp"
+                            android:layout_height="90dp" />
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:layout_marginTop="10dp"
+                            android:textColor="@color/colorGreenLight"
+                            style="@style/AppTheme.Text.Bold"
+                            android:text="@string/transaction_complete"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:id="@+id/tvTitle"
+                            android:layout_marginTop="15dp"
+                            android:textColor="@color/colorWhite"
+                            style="@style/AppTheme.Text.Bold"
+                            android:text=""
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+
+                    <ScrollView
+                            android:layout_above="@+id/btnBackToHome"
+                            android:padding="16dp"
+                            android:layout_below="@+id/topSection"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:padding="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <RelativeLayout
+                                    android:layout_marginTop="10dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:id="@+id/transactionNo"
+                                        style="@style/AppTheme.Text.Medium"
+                                        android:layout_alignParentLeft="true"
+                                        android:textColor="@color/colorWhite"
+                                        android:text="@string/label_transaction_no"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+
+                                    <TextView
+                                        android:layout_alignBaseline="@+id/transactionNo"
+                                        android:gravity="right"
+                                        android:layout_toRightOf="@+id/transactionNo"
+                                        android:layout_marginLeft="10dp"
+                                        android:maxLines="2"
+                                        android:id="@+id/tvTransactionNo"
+                                        style="@style/AppTheme.Text.Small"
+                                        android:layout_alignParentRight="true"
+                                        android:layout_gravity="right"
+                                        android:textColor="@color/colorPrimary"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                </RelativeLayout>
+
+
+
+                                <RelativeLayout
+                                    android:layout_marginTop="10dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        style="@style/AppTheme.Text.Medium"
+
+                                        android:layout_alignParentLeft="true"
+                                        android:textColor="@color/colorWhite"
+                                        android:text="@string/label_date"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+
+                                    <TextView
+                                        android:id="@+id/tvDate"
+                                        style="@style/AppTheme.Text.Small"
+                                        android:layout_alignParentRight="true"
+                                        android:layout_gravity="right"
+                                        android:textColor="@color/colorPrimary"
+                                        android:text=""
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                </RelativeLayout>
+                                <RelativeLayout
+                                    android:layout_marginTop="10dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        style="@style/AppTheme.Text.Medium"
+
+                                        android:textColor="@color/colorWhite"
+                                        android:text="@string/label_time"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/tvTime"
+                                        android:layout_alignBottom="@+id/tvTime"
+                                        android:layout_alignParentStart="true" />
+
+                                    <TextView
+                                        android:id="@+id/tvTime"
+                                        style="@style/AppTheme.Text.Small"
+
+                                        android:layout_alignParentRight="true"
+                                        android:layout_gravity="right"
+                                        android:textColor="@color/colorPrimary"
+                                        android:text=""
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_marginTop="10dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:id="@+id/Name"
+                                        style="@style/AppTheme.Text.Medium"
+                                        android:layout_alignParentLeft="true"
+                                        android:textColor="@color/colorWhite"
+                                        android:text="@string/label_customer_name"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+
+                                    <TextView
+                                        android:layout_alignBaseline="@+id/Name"
+                                        android:layout_marginLeft="10dp"
+                                        android:ellipsize="end"
+                                        android:maxLines="2"
+                                        android:gravity="right"
+                                        android:layout_toRightOf="@+id/Name"
+                                        android:id="@+id/tvCustomerName"
+                                        style="@style/AppTheme.Text.Small"
+                                        android:layout_alignParentRight="true"
+                                        android:layout_gravity="right"
+                                        android:textColor="@color/colorPrimary"
+                                        android:text=""
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                </RelativeLayout>
+
+
+
+                                <RelativeLayout
+                                    android:layout_marginTop="10dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <TextView
+                                        android:id="@+id/TotalAmount"
+                                        style="@style/AppTheme.Text.Medium"
+                                        android:layout_alignParentLeft="true"
+                                        android:textColor="@color/colorWhite"
+                                        android:text="@string/label_amount"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+
+                                    <TextView
+                                        android:maxLength="11"
+                                        android:layout_alignBaseline="@+id/TotalAmount"
+                                        android:layout_marginLeft="5dp"
+                                        android:ellipsize="end"
+                                        android:maxLines="1"
+                                        android:gravity="right"
+                                        android:layout_toRightOf="@+id/TotalAmount"
+                                        style="@style/AppTheme.Text.Small"
+                                        android:id="@+id/tvTotalAmount"
+                                        android:layout_alignParentRight="true"
+                                        android:layout_gravity="right"
+                                        android:textColor="@color/colorPrimary"
+                                        android:text=""
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content" />
+                                </RelativeLayout>
+
+                            </LinearLayout>
+                        </ScrollView>
+
+
+
+
+
+                    <Button
+                        android:textColor="@color/colorWhite"
+                        android:background="@drawable/bg_button_purple_selector"
+                        android:textAllCaps="true"
+                        android:textStyle="bold"
+                        android:id="@+id/btnBackToHome"
+                        android:layout_alignParentBottom="true"
+                        android:alpha=".8"
+                        android:layout_margin="16dp"
+                        android:text="@string/label_done"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </RelativeLayout>
+
+</layout>

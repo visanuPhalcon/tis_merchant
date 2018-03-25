@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "760576283085",
+    "firebase_url": "https://tis-project-71546.firebaseio.com",
+    "project_id": "tis-project-71546",
+    "storage_bucket": "tis-project-71546.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760576283085:android:236dab624cdc23cc",
+        "android_client_info": {
+          "package_name": "com.tis.merchant.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760576283085-6nv82a8drgnkh32dt0lu0dmpmcq6l8os.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tis.merchant.app",
+            "certificate_hash": "8aeb8aaac9216bbc65891aa1f0409449ef04b3da"
+          }
+        },
+        {
+          "client_id": "760576283085-mv90jjma9fcmqdrfnvtslcd6lu7p15hm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tis.merchant.app",
+            "certificate_hash": "35ba4829c2ce5bbbe48049183b3377ba6c809a5a"
+          }
+        },
+        {
+          "client_id": "760576283085-1uq88mk3gu6mf6ihpsamuisvtg9oq570.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7De2hIVn7weAT8rjTSQ4bdXhF-KEBm4Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760576283085-1uq88mk3gu6mf6ihpsamuisvtg9oq570.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

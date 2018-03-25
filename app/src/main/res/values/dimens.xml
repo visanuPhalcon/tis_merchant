@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginSmall">8dp</dimen>
+    <dimen name="marginNormal">12dp</dimen>
+    <dimen name="marginLarge">16dp</dimen>
+    <dimen name="marginExtraLarge">20dp</dimen>
+    <dimen name="marginExtraExtraLarge">24dp</dimen>
+    <dimen name="paddingLarge">16dp</dimen>
+    <dimen name="paddingExtraLarge">36dp</dimen>
+    <dimen name="buttonRadius">4dp</dimen>
+    <dimen name="textSizeNormal">16sp</dimen>
+    <dimen name="textSizeLarge">20sp</dimen>
+    <dimen name="textSizeExtraLarge">24sp</dimen>
+    <dimen name="marginView">36dp</dimen>
+    <dimen name="ExtraExtraExtraLarge">32dp</dimen>
+</resources>

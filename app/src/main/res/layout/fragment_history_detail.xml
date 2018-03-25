@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/marginSmall">
+
+        <TextView
+            android:id="@+id/tv_label_transaction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/transaction_details"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_label_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_label_transaction"
+            android:text="@string/from"/>
+
+        <TextView
+            android:id="@+id/tv_from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_label_transaction"
+            android:layout_toEndOf="@id/tv_label_from"
+            android:layout_alignParentEnd="true"
+            android:gravity="end"
+            android:text="XXXXXX"/>
+
+        <TextView
+            android:id="@+id/tv_label_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_label_from"
+            android:text="@string/amount"/>
+
+        <TextView
+            android:id="@+id/tv_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_from"
+            android:layout_toEndOf="@id/tv_label_amount"
+            android:layout_alignParentEnd="true"
+            android:gravity="end"
+            android:text="500 JPY"/>
+
+        <TextView
+            android:id="@+id/tv_label_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_label_amount"
+            android:text="@string/date"/>
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_amount"
+            android:layout_toEndOf="@id/tv_label_date"
+            android:layout_alignParentEnd="true"
+            android:gravity="end"
+            android:text="2017/17/18"/>
+
+        <TextView
+            android:id="@+id/tv_label_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_label_date"
+            android:text="@string/time"/>
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_date"
+            android:layout_toEndOf="@id/tv_label_time"
+            android:layout_alignParentEnd="true"
+            android:gravity="end"
+            android:text="08.30"/>
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/ok"/>
+
+    </RelativeLayout>
+</layout>

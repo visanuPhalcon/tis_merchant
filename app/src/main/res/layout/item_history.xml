@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_margin="16dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+        <android.support.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                app:layout_widthPercent="20%"
+                android:textSize="14sp"
+                android:id="@+id/tvStatus"
+                android:text="Pay From"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                />
+
+
+            <TextView
+                app:layout_widthPercent="30%"
+                android:layout_toRightOf="@id/tvStatus"
+                android:layout_toLeftOf="@+id/tvTransactionRef"
+                android:textSize="14sp"
+                android:id="@+id/tvName"
+                android:layout_marginLeft="1dp"
+                android:text="Natjira Honda"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                />
+
+            <TextView
+                app:layout_widthPercent="40%"
+                android:layout_alignBaseline="@+id/tvName"
+                android:textSize="14sp"
+                android:layout_alignParentRight="true"
+                android:id="@+id/tvTransactionRef"
+                android:text="Transaction Ref 15796"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                />
+
+        </android.support.percent.PercentRelativeLayout>
+
+        <android.support.percent.PercentRelativeLayout
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_alignBaseline="@+id/tvMoney"
+                android:textSize="14sp"
+                android:textColor="@color/colorBlack"
+                android:id="@+id/tvDate"
+                android:text="Date 01 Jun 2017 , 13:51"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                />
+
+
+            <TextView
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginRight="5dp"
+                android:id="@+id/tvMoney"
+                android:layout_toLeftOf="@+id/tvCurrency"
+                android:text="4,000,000,000"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                />
+
+            <TextView
+                android:textSize="14sp"
+                android:layout_alignBaseline="@+id/tvMoney"
+                android:layout_alignParentRight="true"
+                android:id="@+id/tvCurrency"
+                android:text="@string/label_currency_japan"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                />
+
+        </android.support.percent.PercentRelativeLayout>
+
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PromptNowAndroidAPI</string>
+    <string name="PromptNowAndroidAPI_app_name">PromptNowFoundationAndroid</string>
+    <string name="framework_checkInternet">ไม่สามารถเชื่อมต่ออินเทอร์เน็ตได้ในขณะนี้ กรุณาตรวจสอบสัญญาณอินเทอร์เน็ตและลองใหม่อีกครั้ง</string>
+    <string name="framework_redo_transaction_pls">ขออภัย เกิดข้อผิดพลาดในการเชื่อมต่อ โปรดลองอีกครั้ง</string>
+    <string name="framework_invalid">Invalid information, please try again.</string>
+    <string name="framework_close_app_error">Please login to TapKTC again</string>
+
+    <string name="common_progress_tvTitle">PromptNow</string>
+    <string name="common_progress_tvMessage">โปรดรอ &#8230;</string>
+
+    <string name="common_popup_ok">ตกลง</string>
+    <string name="common_popup_cancel">ยกเลิก</string>
+
+</resources>

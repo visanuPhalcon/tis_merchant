@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.tis.merchant.app.activity.TermConditionActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:gravity="center"
+            android:padding="@dimen/paddingLarge"
+            android:text="@string/terms_and_conditions"
+            android:textSize="@dimen/textSizeLarge"
+            android:textColor="@color/fontColorWhite"
+            android:background="@color/colorTisPurple"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginLarge"
+                android:layout_marginStart="@dimen/marginExtraExtraLarge"
+                android:layout_marginEnd="@dimen/marginExtraExtraLarge">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/marginSmall"
+                    android:text="@string/label_term_con" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/marginSmall">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="@dimen/marginExtraExtraLarge"
+                android:layout_marginEnd="@dimen/marginExtraExtraLarge"
+                android:gravity="left">
+
+                <ImageView
+                    android:id="@+id/iv_checkbox"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/checkbox_uncheck"/>
+
+                <TextView
+                    android:layout_marginBottom="4dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/tv_agree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:gravity="bottom"
+                    android:text="@string/i_accept_the_terms"
+                    android:textColor="@color/fontColorPurple"
+                    android:textSize="14sp"/>
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_agree"
+                style="@style/TisButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginExtraExtraLarge"
+                android:layout_marginBottom="@dimen/marginSmall"
+                android:layout_marginStart="@dimen/marginExtraExtraLarge"
+                android:layout_marginEnd="@dimen/marginExtraExtraLarge"
+                android:enabled="false"
+                android:alpha="0.6"
+                android:text="@string/agree" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>
